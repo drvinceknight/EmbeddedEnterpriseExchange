@@ -7,37 +7,67 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1142.8572"
+   height="1114.2858"
+   id="svg2"
    version="1.1"
-   width="1102.5581"
-   height="1079.75"
-   id="svg2">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="skills.svg">
   <defs
      id="defs4">
     <marker
-       refX="0"
-       refY="0"
+       inkscape:stockid="Arrow1Mend"
        orient="auto"
+       refY="0"
+       refX="0"
        id="Arrow1Mend"
        style="overflow:visible">
       <path
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
          id="path3778"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
-       refX="0"
-       refY="0"
+       inkscape:stockid="Arrow1Mend"
        orient="auto"
+       refY="0"
+       refX="0"
        id="Arrow1Mend-9"
        style="overflow:visible">
       <path
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0"
          id="path3778-4"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
     </marker>
   </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="310.77232"
+     inkscape:cy="472.77626"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -51,96 +81,133 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(474.34375,97.46875)"
-     id="layer1">
-    <path
-       d="m 384.86785,149.50504 0,602.85714"
-       id="path2985"
-       style="fill:#ff0000;stroke:#5faad3;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <text
-       x="159.14285"
-       y="98.076469"
-       id="text3755"
-       xml:space="preserve"
-       style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"><tspan
-         x="159.14285"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(482.91518,109.14732)">
+    <g
+       id="g4508"
+       transform="translate(11.660728,5.5887146)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985"
+         d="m 384.86785,149.50504 0,602.85714"
+         style="fill:#ff0000;stroke:#5faad3;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3755"
          y="98.076469"
-         id="tspan3757"
-         style="font-size:50px">End First Semester</tspan><tspan
          x="159.14285"
-         y="160.57648"
-         id="tspan3759" /></text>
-    <path
-       d="m -458.08036,442.40682 645.71429,0"
-       id="path3763"
-       style="fill:#55ffdd;stroke:#55ffdd;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
-    <path
-       d="m -469.50893,-96.209246 c 0,0 105.71429,408.571426 668.57143,408.571426"
-       id="path4209"
-       style="fill:none;stroke:#2ad4ff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
-    <path
-       d="m -469.50893,981.02294 c 0,0 105.71429,-408.57148 668.57143,-408.57148"
-       id="path4209-7"
-       style="fill:none;stroke:#8dd35f;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
-    <text
-       x="-398.58215"
-       y="-11.212814"
-       id="text3755-7"
-       xml:space="preserve"
-       style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"><tspan
-         x="-398.58215"
+         style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+         xml:space="preserve"><tspan
+           style="font-size:50px"
+           y="98.076469"
+           x="159.14285"
+           id="tspan3757"
+           sodipodi:role="line">End First Semester</tspan><tspan
+           id="tspan3759"
+           y="160.57648"
+           x="159.14285"
+           sodipodi:role="line" /></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3763"
+         d="m -458.08036,442.40682 645.71429,0"
+         style="fill:#55ffdd;stroke:#55ffdd;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4209"
+         d="m -469.50893,-96.209246 c 0,0 105.71429,408.571426 668.57143,408.571426"
+         style="fill:none;stroke:#2ad4ff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4209-7"
+         d="m -469.50893,981.02294 c 0,0 105.71429,-408.57148 668.57143,-408.57148"
+         style="fill:none;stroke:#8dd35f;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3755-7"
          y="-11.212814"
-         id="tspan3757-7"
-         style="font-size:50px">Code</tspan><tspan
          x="-398.58215"
-         y="51.287186"
-         id="tspan4441"
-         style="font-size:50px" /><tspan
-         x="-398.58215"
-         y="113.78719"
-         id="tspan3759-9" /></text>
-    <text
-       x="-435.73929"
-       y="489.36218"
-       id="text3755-7-5"
-       xml:space="preserve"
-       style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"><tspan
-         x="-435.73929"
+         style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+         xml:space="preserve"><tspan
+           style="font-size:50px"
+           y="-11.212814"
+           x="-398.58215"
+           id="tspan3757-7"
+           sodipodi:role="line">Code</tspan><tspan
+           id="tspan4441"
+           style="font-size:50px"
+           y="51.287186"
+           x="-398.58215"
+           sodipodi:role="line" /><tspan
+           id="tspan3759-9"
+           y="113.78719"
+           x="-398.58215"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3755-7-5"
          y="489.36218"
-         id="tspan3757-7-1"
-         style="font-size:50px">Life</tspan><tspan
          x="-435.73929"
-         y="551.86218"
-         id="tspan4441-1"
-         style="font-size:50px" /><tspan
-         x="-435.73929"
-         y="614.36218"
-         id="tspan3759-9-4" /></text>
-    <text
-       x="-290.02502"
-       y="789.36218"
-       id="text3755-7-3"
-       xml:space="preserve"
-       style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"><tspan
-         x="-290.02502"
+         style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+         xml:space="preserve"><tspan
+           style="font-size:50px"
+           y="489.36218"
+           x="-435.73929"
+           id="tspan3757-7-1"
+           sodipodi:role="line">Life</tspan><tspan
+           id="tspan4441-1"
+           style="font-size:50px"
+           y="551.86218"
+           x="-435.73929"
+           sodipodi:role="line" /><tspan
+           id="tspan3759-9-4"
+           y="614.36218"
+           x="-435.73929"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3755-7-3"
          y="789.36218"
-         id="tspan3757-7-6"
-         style="font-size:50px">Mathematics</tspan><tspan
          x="-290.02502"
-         y="851.86218"
-         id="tspan4441-4"
-         style="font-size:50px" /><tspan
-         x="-290.02502"
-         y="914.36218"
-         id="tspan3759-9-2" /></text>
-    <text
-       x="525.71429"
-       y="528.55859"
-       id="text4483"
-       xml:space="preserve"
-       style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"><tspan
-         x="525.71429"
+         style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+         xml:space="preserve"><tspan
+           style="font-size:50px"
+           y="789.36218"
+           x="-290.02502"
+           id="tspan3757-7-6"
+           sodipodi:role="line">Mathematics</tspan><tspan
+           id="tspan4441-4"
+           style="font-size:50px"
+           y="851.86218"
+           x="-290.02502"
+           sodipodi:role="line" /><tspan
+           id="tspan3759-9-2"
+           y="914.36218"
+           x="-290.02502"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4483"
          y="528.55859"
-         id="tspan4485">?</tspan></text>
+         x="525.71429"
+         style="font-size:250px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+         xml:space="preserve"><tspan
+           y="528.55859"
+           x="525.71429"
+           id="tspan4485"
+           sodipodi:role="line">?</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:none"
+       id="rect4506"
+       width="1142.8572"
+       height="1114.2858"
+       x="-8.5714283"
+       y="-11.678572"
+       transform="translate(-474.34375,-97.46875)" />
   </g>
 </svg>
