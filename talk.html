@@ -13,7 +13,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
 
 		<!-- For syntax highlighting -->
@@ -27,6 +27,7 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
 	</head>
 
 	<body>
@@ -35,41 +36,39 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-<section align=left data-markdown>### Embedded Enterprise in Mathematics
+<section align=center data-markdown>### Embedded Enterprise in Mathematics
 
-</section><section align=left data-markdown>###
+</section><section align=center data-markdown>
 
-![](./Images/board.jpg)
+<img src='./Images/board.jpg' style="border:none;" >
 
-</section><section align=left data-markdown>### _Should a modern mathematician be a coder?_
+</section><section align=center data-markdown>### _Should a modern mathematician be a coder?_
 
-</section><section align=left data-markdown>###
+</section><section align=center data-markdown>
 
-![](./Images/plan.png)
+<img src='./Images/plan.png' style="border:none;" >
 
-</section><section align=left data-markdown>###
+</section><section align=center data-markdown>
 
-    def plot_rain_drops(drops_in_circle, drops_out_of_circle, length_of_field=1, format='pdf'):
-        """ Function to draw rain drops """
-        number_of_drops_in_circle = len(drops_in_circle)
-        number_of_drops_out_of_circle = len(drops_out_of_circle)
-        number_of_drops = number_of_drops_in_circle + number_of_drops_out_of_circle
-        plt.figure()
-        plt.xlim(-length_of_field / 2, length_of_field / 2)
-        plt.ylim(-length_of_field / 2, length_of_field / 2)
-        plt.scatter([e[0] for e in drops_in_circle], [e[1] for e in drops_in_circle], color='blue', label="Drops in circle")
-        plt.scatter([e[0] for e in drops_out_of_circle], [e[1] for e in drops_out_of_circle], color='black', label="Drops out of circle")
-        plt.legend(loc="center")
-        plt.title("%s drops: %s landed in circle, estimating $\pi$ as %.4f." % (number_of_drops, number_of_drops_in_circle, 4 * number_of_drops_in_circle / number_of_drops))
-        plt.savefig("%s_drops.%s" % (number_of_drops, format))
+    number_of_drops_in_circle = len(drops_in_circle)
+    number_of_drops_out_of_circle = len(drops_out_of_circle)
+    number_of_drops = number_of_drops_in_circle + number_of_drops_out_of_circle
+    plt.figure()
+    plt.xlim(-length_of_field / 2, length_of_field / 2)
+    plt.ylim(-length_of_field / 2, length_of_field / 2)
+    plt.scatter([e[0] for e in drops_in_circle], [e[1] for e in drops_in_circle], color='blue', label="Drops in circle")
+    plt.scatter([e[0] for e in drops_out_of_circle], [e[1] for e in drops_out_of_circle], color='black', label="Drops out of circle")
+    plt.legend(loc="center")
+    plt.title("%s drops: %s landed in circle, estimating $\pi$ as %.4f." % (number_of_drops, number_of_drops_in_circle, 4 * number_of_drops_in_circle / number_of_drops))
+    plt.savefig("%s_drops.%s" % (number_of_drops, format))
 
-</section><section align=left data-markdown>###
+</section><section align=center>
 
-![](./Images/darts.gif)
+<img src='./Images/darts.gif' style="border:none;" >
 
-</section><section align=left data-markdown>### Email: `In my 3rd Year and Panicking`
+</section><section align=left data-markdown>
 
-<blockquote>
+<blockquote >
 <p>Dear Vince,</p>
 
 <p>I have nothing to put on my CV!</p>
@@ -77,45 +76,73 @@
 <p>Send help and food,</p>
 <p>3rd Year Tutee</p></blockquote>
 
-</section><section align=left data-markdown>### Picture of skills
+</section><section align=center data-markdown>
 
-![](./Images/skills.svg)
+<img src='./Images/skills.svg' style="border:none;" >
 
-</section><section align=left data-markdown>###
+</section><section align=center data-markdown>
 
-![](https://lh4.googleusercontent.com/-agZurKM08gk/UvNxDSb1ZWI/AAAAAAAA-1I/Foi4Pl_vT_M/w1180-h885-no/IMG_20140206_112453.jpg)
+<img src='https://lh4.googleusercontent.com/-agZurKM08gk/UvNxDSb1ZWI/AAAAAAAA-1I/Foi4Pl_vT_M/w1180-h885-no/IMG_20140206_112453.jpg' style="border:none;" >
 
-</section><section align=left data-markdown>### Companies
-
-- Director
-- Secretary
-
-<center> **Minutes** </center>
-
-</section><section align=left data-markdown>###
-
-1. Week 1: Introductory Lecture
-2. Week 2: Idea to Market
-3. Week 3: Research Skills
-4. Week 4: Strategic Project Management
-5. Week 5: Pitching
+</section>
 
 
-</section><section align=left data-markdown>### Week 3: Project Report
+<section>
+<img src='https://lh3.googleusercontent.com/-2kSrcDRI8cw/UvN6W36CxwI/AAAAAAAA-0w/5bOPkQm8rbY/w630-h840-no/IMG_20140206_120431.jpg' style="border:none;" >
+</section>
+
+<section>
+
+<h2>Companies</h2>
+
+</section><section>
+
+<ul>
+<li> Week 1: Introductory Lecture</li>
+<li> Week 2: Idea to Market </li>
+<li> Week 3: Research Skills </li>
+<li> Week 4: Strategic Project Management </li>
+<li> Week 5: Pitching </li>
+</ul>
+
+
+</section>
+
+<section align=center data-markdown>### Week 7-10: Seminars
+
+<img src='https://lh6.googleusercontent.com/-cn86i5PQKxY/UyGMa6fhefI/AAAAAAABDSo/MhbIvHK30vk/w630-h473-no/IMG_20140313_082329.jpg' style="border:none;" >
+
+</section>
+
+
+<section>
+<h2>Assessment</h2>
+</section>
+
+<section align=center data-markdown>### Week 3: Project Report
 
 _3 pages: 30 % of total mark_
 
-</section><section align=left data-markdown>### Week 6: Lightning Talks
+</section>
 
-![](https://lh5.googleusercontent.com/-T2KfRLRq2Q8/Uxhcl_RbBuI/AAAAAAAAknI/zY49IOlb_Ng/w1598-h848-no/IMG_3954.JPG)
+<section align=center data-markdown>### Week 6: Lightning Talks
 
-</section><section align=left data-markdown>### Week 7-10: Seminars
+<img src='https://lh5.googleusercontent.com/-T2KfRLRq2Q8/Uxhcl_RbBuI/AAAAAAAAknI/zY49IOlb_Ng/w1598-h848-no/IMG_3954.JPG' style="border:none;" >
 
-![](https://lh6.googleusercontent.com/-cn86i5PQKxY/UyGMa6fhefI/AAAAAAABDSo/MhbIvHK30vk/w630-h473-no/IMG_20140313_082329.jpg)
+</section>
 
-</section><section align=left data-markdown>### Week 11: Final Presentations
+<section align=center data-markdown>### Week 11: Final Presentations
+</section>
 
-</section><section align=left data-markdown>###
+<section>
+<ul>
+<li>Teaching.</li>
+<li>Sharing a taxi fair.</li>
+<li><a href='http://thefightclub.herokuapp.com/' target='_blank'>The Fight Club</a></li>
+</ul>
+</section>
+
+<section align=center data-markdown>
 
 [www.vincent-knight.com](www.vincent-knight.com)
 
