@@ -1,0 +1,162 @@
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>eex</title
+
+		<meta name="description" content=Reveal file created using md2reveal.py>
+		<meta name="author" content=VK>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+<section align=left data-markdown>### Embedded Enterprise in Mathematics
+
+</section><section align=left data-markdown>###
+
+![](./Images/board.jpg)
+
+</section><section align=left data-markdown>### _Should a modern mathematician be a coder?_
+
+</section><section align=left data-markdown>###
+
+![](./Images/plan.png)
+
+</section><section align=left data-markdown>###
+
+    def plot_rain_drops(drops_in_circle, drops_out_of_circle, length_of_field=1, format='pdf'):
+        """ Function to draw rain drops """
+        number_of_drops_in_circle = len(drops_in_circle)
+        number_of_drops_out_of_circle = len(drops_out_of_circle)
+        number_of_drops = number_of_drops_in_circle + number_of_drops_out_of_circle
+        plt.figure()
+        plt.xlim(-length_of_field / 2, length_of_field / 2)
+        plt.ylim(-length_of_field / 2, length_of_field / 2)
+        plt.scatter([e[0] for e in drops_in_circle], [e[1] for e in drops_in_circle], color='blue', label="Drops in circle")
+        plt.scatter([e[0] for e in drops_out_of_circle], [e[1] for e in drops_out_of_circle], color='black', label="Drops out of circle")
+        plt.legend(loc="center")
+        plt.title("%s drops: %s landed in circle, estimating $\pi$ as %.4f." % (number_of_drops, number_of_drops_in_circle, 4 * number_of_drops_in_circle / number_of_drops))
+        plt.savefig("%s_drops.%s" % (number_of_drops, format))
+
+</section><section align=left data-markdown>###
+
+![](./Images/darts.gif)
+
+</section><section align=left data-markdown>### Email: `In my 3rd Year and Panicking`
+
+<blockquote>
+<p>Dear Vince,</p>
+
+<p>I have nothing to put on my CV!</p>
+
+<p>Send help and food,</p>
+<p>3rd Year Tutee</p></blockquote>
+
+</section><section align=left data-markdown>### Picture of skills
+
+![](./Images/skills.svg)
+
+</section><section align=left data-markdown>###
+
+![](https://lh4.googleusercontent.com/-agZurKM08gk/UvNxDSb1ZWI/AAAAAAAA-1I/Foi4Pl_vT_M/w1180-h885-no/IMG_20140206_112453.jpg)
+
+</section><section align=left data-markdown>### Companies
+
+- Director
+- Secretary
+
+<center> **Minutes** </center>
+
+</section><section align=left data-markdown>###
+
+1. Week 1: Introductory Lecture
+2. Week 2: Idea to Market
+3. Week 3: Research Skills
+4. Week 4: Strategic Project Management
+5. Week 5: Pitching
+
+
+</section><section align=left data-markdown>### Week 3: Project Report
+
+_3 pages: 30 % of total mark_
+
+</section><section align=left data-markdown>### Week 6: Lightning Talks
+
+![](https://lh5.googleusercontent.com/-T2KfRLRq2Q8/Uxhcl_RbBuI/AAAAAAAAknI/zY49IOlb_Ng/w1598-h848-no/IMG_3954.JPG)
+
+</section><section align=left data-markdown>### Week 7-10: Seminars
+
+![](https://lh6.googleusercontent.com/-cn86i5PQKxY/UyGMa6fhefI/AAAAAAABDSo/MhbIvHK30vk/w630-h473-no/IMG_20140313_082329.jpg)
+
+</section><section align=left data-markdown>### Week 11: Final Presentations
+
+</section><section align=left data-markdown>###
+
+[www.vincent-knight.com](www.vincent-knight.com)
+
+[+VincentKnight](https://plus.google.com/+VincentKnight/)
+
+[@drvinceknight](https://twitter.com/drvinceknight)
+</section>
+			</div>
+
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
